@@ -7,7 +7,7 @@ It helps to break apart a complex script into separate ink files by location, ti
 
 It may also help to start with a [Mind Map chart](https://mm.tt/1281196741?t=4MDoVGC64f) to get a sense of how deeply nested your scripts will be:
 
-![mindmap](/docs/img/FileMap.png)
+![mindmap](../img/FileMap.png)
 
 
 ## File Includes
@@ -61,5 +61,5 @@ INCLUDE Watchdog.ink
 
 No matter how your INK files are organized, you can jump from any script to any other script as long as:
 - All relevant script files are included in the project
-- The line you want to `divert` to has a unique label within its `scope` (see [Basics/Scopes](Basics.md#Scopes))
-- You reference the correct label in your `divert` (see [Basics/Diverts](Basics.md#Diverts))
+- The line you want to `divert` to has a unique label within its `scope` (see [Basics/Scopes](Basics.md#scopes))
+- You reference the correct label in your `divert` (see [Basics/Diverts](Basics.md#diverts))
