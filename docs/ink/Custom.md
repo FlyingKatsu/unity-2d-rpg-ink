@@ -33,7 +33,7 @@ Group together several style formats under a single label to stylize dialogue yo
 - Use the label `Loud` for text that represents a loud sound or voice
 - Use the label `Whisper` for text that represents a soft or whispered voice
 
-![styles preview](/docs/img/FormatStyles-cropped.png)
+![styles preview](../img/FormatStyles-cropped.png)
 
 Create your own label if you need one that isn't listed here. You can write it as a comment near the top of your main INK script: `# style: MyLabel <color=red><sprite name=Misc></color>`
 
