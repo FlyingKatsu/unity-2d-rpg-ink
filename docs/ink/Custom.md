@@ -15,7 +15,7 @@ To make your Ink script more interesting and multimedia-ready, you can add [meta
 If you need a style that won't be repeated very often or doesn't require a lot of decoration, you can use any of the tags provided by [TextMesh Pro's Rich Text](http://digitalnativestudios.com/textmeshpro/docs/rich-text/). For example:
 - `<i>Italicized Text</i>` for *Italicized Text*
 - `<s>Strikethrough Text</s>` ~~for Strikethrough Text~~
-- `<u>Underlined Text</u>` for <u>[Underlined Text]</u>
+- `<u>Underlined Text</u>` for <u>Underlined Text</u>
 - `<b>Bold Text</b>` for **Bold Text**
 - `<noparse><b></noparse>` to show `<b>` instead of **b**
 - `<nobr>Stay Together<nobr>` to prevent the words `Stay Together` from being split onto separate lines by word wrapping.
