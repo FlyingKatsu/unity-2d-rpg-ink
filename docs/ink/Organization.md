@@ -62,4 +62,4 @@ INCLUDE Watchdog.ink
 No matter how your INK files are organized, you can jump from any script to any other script as long as:
 - All relevant script files are included in the project
 - The line you want to `divert` to has a unique label within its `scope` (see [Basics/Scopes](Basics.md#scopes))
-- You reference the correct label in your `divert` (see [Basics/Diverts](Basics.md#diverts))
+- You reference the correct label in your `divert` (see [Basics/Diverts](Basics.md#diverts) and [Basics/Scopes](Basics.md#scopes))
