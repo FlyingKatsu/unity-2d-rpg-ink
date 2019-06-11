@@ -7,7 +7,7 @@ It helps to break apart a complex script into separate ink files by location, ti
 
 It may also help to start with a [Mind Map chart](https://mm.tt/1281196741?t=4MDoVGC64f) to get a sense of how deeply nested your scripts will be:
 
-![mindmap](img/FileMap.png)
+![mindmap](/docs/img/FileMap.png)
 
 
 ## File Includes
