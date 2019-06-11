@@ -31,7 +31,7 @@ Choice Resulting Text
 ```
 
 ### Sticky Choices
-Sticky choices are always available, no matter how many times the player has accessed the same decision block and made the same choice. To vary the text each time the decision block is accessed, see [Alternative Text](#Alternative-Text).
+Sticky choices are always available, no matter how many times the player has accessed the same decision block and made the same choice. To vary the text each time the decision block is accessed, see [Alternative Text](#alternative-text).
 
 Sticky choices are marked by plus sign:  
 `+  [Choice Option Text] Resulting Text`
@@ -45,7 +45,7 @@ Single-use choices are marked by an asterisk:
 ### Fallback Choices
 You can set a default choice for a decision block in case the player runs out of single-use choices and has no other options available.
 
-Default choices just normal choices without any choice text. Use a [Divert](#Diverts) arrow to distinguish the resulting text from a normal choice text, or to jump to a different branch.
+Default choices just normal choices without any choice text. Use a [Divert](#diverts) arrow to distinguish the resulting text from a normal choice text, or to jump to a different branch.
 `+  -> You have no other options`
 
 ## Structures
@@ -88,7 +88,7 @@ Use a single equal sign to label the start of a stitch.
 Stitches can also act like functions by accepting parameters to pass on to their weaves/choices.  
 `= stitch(parameter)`
 
-If you use a stitch, you must also tell the game which stitch to start the game with (see [Diverts](#Diverts))
+If you use a stitch, you must also tell the game which stitch to start the game with (see [Diverts](#diverts))
 
 ### Knots
 Use double equal signs to label the start of a knot.  
@@ -97,7 +97,7 @@ Use double equal signs to label the start of a knot.
 Knots can also act like functions by accepting parameters to pass on to their stitches, and weaves/choices.  
 `== knot(parameter) ==`
 
-If you use a knot, you must also tell the game which knot/stitch to start the game with (see [Diverts](#Diverts))
+If you use a knot, you must also tell the game which knot/stitch to start the game with (see [Diverts](#diverts))
 
 ### Functions
 Functions can be used to separate complex logic from your writing. You can make calculations and either change an existing variable,  
@@ -128,7 +128,7 @@ This is helpful for when your script contains reusable branches or sets of branc
 
 Some pre-defined diverts, `->DONE` and `->END`, are used to mark the end of a sequence or game, and are required if you use knots and stitches.
 
-Note that if you have many knots and stitches, you will need to be more specific about which label a divert shold use (see [Scopes](#Scopes))
+Note that if you have many knots and stitches, you will need to be more specific about which label a divert shold use (see [Scopes](#scopes))
 
 ### Tunnels
 Tunnels allow you to divert to another location temporarily, and then return to the current location once the other location's business is finished.
@@ -149,7 +149,14 @@ See [Ink Docs/Tunnels](https://github.com/inkle/ink/blob/master/Documentation/Wr
 ### Threads
 Threads are the most complex part of an Ink story, and are probably rarely needed by most writers. However, it may prove incredibly useful for a standard RPG-style game.
 
+Create a thread with a reversed arrow `<-`:  
+`<-label`
+
 Threads combine several blocks of text, along with any choices, and presents them as one huge decision block.
+
+```
+TODO: put an example here
+```
 
 See [Ink Docs/Threads](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#2-threads)
 
