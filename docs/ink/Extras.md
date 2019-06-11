@@ -29,4 +29,4 @@ Tags use hashtags, of course, and can be written either before a line of text, o
 Oh no, I dropped the vase! # mood: stressed, prop: broken vase
 ```
 
-See [Custom/Metadata](Custom.md#Metadata) for a list of tags supported by our Unity scripts.
+See [Custom/Metadata](Custom.md#metadata) for a list of tags supported by our Unity scripts.
